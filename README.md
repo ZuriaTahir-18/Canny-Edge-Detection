@@ -2,15 +2,11 @@
 
 This project is a step-by-step implementation of the **Canny Edge Detection** algorithm **from scratch**, written in Python using NumPy and OpenCV for image handling. The project is part of a computer vision assignment (CLO2 - C3) and focuses on building a strong understanding of edge detection techniques by manually implementing each phase of the algorithm.
 
----
-
-## 📌 Objective
+##  Objective
 
 To implement the Canny edge detection pipeline from scratch, without relying on built-in OpenCV functions for edge detection. The project helps understand each phase of the process and visualizes its effect on the image.
 
----
-
-## 🧠 Algorithm Steps Implemented
+## Algorithm Steps Implemented
 
 1. **Grayscale Conversion**  
    Convert the image to grayscale for simplification.
@@ -33,9 +29,7 @@ To implement the Canny edge detection pipeline from scratch, without relying on 
 7. **Edge Tracking by Hysteresis**  
    Finalize the edges by linking weak edges to strong edges if they are connected.
 
----
-
-## 🖼️ Example Output
+##  Example Output
 
 | Original Image | Final Edge Detected Image |
 |----------------|----------------------------|
@@ -45,7 +39,7 @@ To implement the Canny edge detection pipeline from scratch, without relying on 
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - Python 3.x
 - NumPy
