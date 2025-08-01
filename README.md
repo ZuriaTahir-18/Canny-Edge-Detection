@@ -29,16 +29,6 @@ To implement the Canny edge detection pipeline from scratch, without relying on 
 7. **Edge Tracking by Hysteresis**  
    Finalize the edges by linking weak edges to strong edges if they are connected.
 
-##  Example Output
-
-| Original Image | Final Edge Detected Image |
-|----------------|----------------------------|
-| ![original](output/original.png) | ![canny](output/canny.png) |
-
-> Note: Example images should be placed in an `output/` folder inside the repo.
-
----
-
 ##  Requirements
 
 - Python 3.x
